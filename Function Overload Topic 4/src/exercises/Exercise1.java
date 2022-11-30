@@ -19,12 +19,14 @@ public class Exercise1 {
 			System.out.println("Result = " + sum(a, b));
 			break;
 		case 2:
-			System.out.print("Introduce first double number: ");
+			System.out.print("Introduce first decimal number: ");
 			c = sc.nextDouble();
-			System.out.print("Introduce second double number: ");
+			System.out.print("Introduce second decimal number: ");
 			d = sc.nextDouble();
 			System.out.println("Result = " + sum(c, d));
 			break;
+		default:
+			System.out.println("ERROR!");
 		}
 		sc.close();
 	}
