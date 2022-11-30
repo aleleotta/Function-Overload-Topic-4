@@ -3,8 +3,40 @@ import java.util.*;
 
 public class Exercise1 {
 	public static void main(String[] args) {
+		int a, b;
+		double c, d;
+		int option;
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Options:\n1 = 2 integers\n2 = 2 decimals");
+		System.out.print("Introduce an option: ");
+		option = sc.nextInt();
+		switch (option) {
+		case 1:
+			System.out.print("Introduce first integer number: ");
+			a = sc.nextInt();
+			System.out.print("Introduce second integer number: ");
+			b = sc.nextInt();
+			System.out.println("Result = " + sum(a, b));
+			break;
+		case 2:
+			System.out.print("Introduce first double number: ");
+			c = sc.nextDouble();
+			System.out.print("Introduce second double number: ");
+			d = sc.nextDouble();
+			System.out.println("Result = " + sum(c, d));
+			break;
+		}
 		sc.close();
+	}
+	
+	static int sum(int a, int b) {
+		int result = a + b;
+		return result;
+	}
+	
+	static double sum(double a, double b) {
+		double result = a + b;
+		return result;
 	}
 }
 /*Diseña dos funciones de nombre suma que hagan lo siguiente:
