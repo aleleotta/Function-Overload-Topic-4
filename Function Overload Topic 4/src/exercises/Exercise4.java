@@ -3,8 +3,21 @@ import java.util.*;
 
 public class Exercise4 {
 	public static void main(String[] args) {
+		int a = 0;
+		String b;
+		int option;
 		Scanner sc = new Scanner(System.in);
 		sc.close();
+	}
+	
+	static boolean parseToBoolean(int a) {
+		boolean b = false;
+		if (a == 0) {
+			b = false;
+		} else if (a == 1) {
+			b = true;
+		}
+		return b;
 	}
 }
 /*Diseña dos funciones de nombre parseToBoolean que hagan lo siguiente:
