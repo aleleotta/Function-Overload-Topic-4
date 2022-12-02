@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Exercise5 {
 	public static void main(String[] args) {
-		int option, a, b, c;
+		int option, a, b, c, d, e, f;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Select an option: ");
 		option = sc.nextInt();
@@ -19,15 +19,14 @@ public class Exercise5 {
 		sc.close();
 	}
 	static int randomNumbers(int a){
-		int numbers;
+		int n = 0;
 		Scanner sc = new Scanner(System.in);
-		numbers = sc.nextInt();
-		for(int i = 0; i <= numbers ; i++) {
-			numbers = (int)(Math.random() * 1);
-			System.out.println(numbers);
+		for(int i = 0; i <= a ; i++) {
+			n = (int)(Math.random() * 1);
+			System.out.print(n);
 		}
 		sc.close();
-		return numbers;
+		return n;
 	}
 	static int randomNumbers(){}
 	static int randomNumbers(){}
