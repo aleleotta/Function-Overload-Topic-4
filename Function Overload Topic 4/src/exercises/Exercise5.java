@@ -6,6 +6,9 @@ public class Exercise5 {
 		Scanner sc = new Scanner(System.in);
 		sc.close();
 	}
+	static int randomNumbers(){}
+	static int randomNumbers(){}
+	static int randomNumbers(){}
 }
 /*Diseña tres funciones de nombre numerosAleatorios que hagan lo siguiente:
 a) La primera de las funciones recibirá un argumento de tipo entero que indicará la cantidad de números aleatorios a generar.
