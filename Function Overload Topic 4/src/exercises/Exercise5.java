@@ -22,7 +22,7 @@ public class Exercise5 {
 		int n = 0;
 		Scanner sc = new Scanner(System.in);
 		for(int i = 0; i <= a ; i++) {
-			n = (int)(Math.random() * 1);
+			n = (int)(Math.random() * 2);
 			System.out.print(n);
 		}
 		sc.close();
