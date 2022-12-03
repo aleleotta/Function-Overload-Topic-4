@@ -9,7 +9,7 @@ public class Exercise5 {
 		option = sc.nextInt();
 		switch(option) {
 		case 1:
-			System.out.print("Introduce a number: ");
+			System.out.print("Introduce the quantity of digits to print: ");
 			a = sc.nextInt();
 			System.out.println(randomNumbers(a));
 			break;
@@ -39,7 +39,7 @@ public class Exercise5 {
 		Scanner sc = new Scanner(System.in);
 		for(int i = 2; i <= a ; i++) {
 			n = (int)(Math.random() * 2);
-			System.out.print(n);
+			System.out.print(n + " ");
 		}
 		sc.close();
 		return n;
@@ -49,7 +49,7 @@ public class Exercise5 {
 		Scanner sc = new Scanner(System.in);
 		for(int i = 2; i <= b ; i++) {
 			n = (int)(Math.random() * c + 1);
-			System.out.print(n);
+			System.out.print(n + " ");
 		}
 		sc.close();
 		return n;
@@ -59,7 +59,7 @@ public class Exercise5 {
 		Scanner sc = new Scanner(System.in);
 		for(int i = 2; i <= d ; i++) {
 			n = (int)(Math.random() * (f - e + 1) + e);
-			System.out.print(n);
+			System.out.print(n + " ");
 		}
 		sc.close();
 		return n;
